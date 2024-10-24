@@ -53,16 +53,41 @@ Barra lateral
 
     display: flex;
 }
-.texto {
+
+/*
+Menu de orientação entre as paginas
+*/
+#menus {
     
     position: relative;
     top: 100px;
-    
+    list-style-type: none;
 
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 0;
+    padding: 0;
+    margin: 0;
 
 }
+
+#menus li {
+    
+    margin-bottom: 10px; 
+
+}
+
+#menus a:link, 
+#menus a:visited{
+    background-color: rgb(100,100,100);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    
+}
+
+#menus a:hover, 
+#menus a:active {
+    background-color: red;
+  }
 
 
 
