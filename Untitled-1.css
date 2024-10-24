@@ -1,0 +1,107 @@
+
+/*
+
+Cabecalho para mobile
+
+*/
+
+header{
+    display: none;
+}
+
+header h1{
+
+    text-align: center;
+}
+
+
+/*
+
+Barra lateral
+
+*/
+
+.barra_logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: auto;
+    width: auto;
+    background-color: rgb(150,150,150);
+    border-bottom-right-radius: 50%;
+
+
+}
+
+.barra_logo img{
+
+    position:relative;
+
+    height: 70px;
+    width: 70px;
+    
+
+}
+
+
+.container{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+
+    display: flex;
+}
+.texto {
+    
+    position: relative;
+    top: 100px;
+    
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.sidebar{
+    
+    
+    width: 200px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 15px;
+
+}
+
+
+/*      
+
+Responsividade      
+
+*/
+
+@media screen and (max-width: 600px) {
+
+
+
+header{
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(125,125,125);
+}
+
+.container{
+
+    display: none;
+
+}
+
+
+}
