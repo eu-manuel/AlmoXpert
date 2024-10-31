@@ -1,0 +1,7 @@
+{
+  "name": "site almoXpert",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
